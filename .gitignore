@@ -1,0 +1,20 @@
+# Environment variables / secrets — NEVER commit real credentials
+.env
+backend/.env
+
+# Node
+node_modules/
+npm-debug.log
+package-lock.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
+
+# Key pairs
+*.pem
+*.ppk
