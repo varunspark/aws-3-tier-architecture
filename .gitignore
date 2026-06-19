@@ -1,11 +1,13 @@
 # Environment variables / secrets — NEVER commit real credentials
 .env
-backend/.env
+DbConfig.js
+application-code/app-tier/DbConfig.js
 
 # Node
 node_modules/
 npm-debug.log
 package-lock.json
+build/
 
 # OS
 .DS_Store
@@ -15,6 +17,6 @@ Thumbs.db
 .vscode/
 *.swp
 
-# Key pairs
+# Key pairs (just in case one is ever downloaded into this folder)
 *.pem
 *.ppk

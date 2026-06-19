@@ -1,0 +1,12 @@
+// ============================================================
+// TEMPLATE — copy this file to "DbConfig.js" on the App Tier
+// EC2 instance (and in the S3 bucket's app-tier folder).
+// Fill in YOUR real RDS endpoint, username, and password.
+// NEVER commit the real DbConfig.js to GitHub.
+// ============================================================
+module.exports = Object.freeze({
+    DB_HOST: 'YOUR-DB-ENDPOINT.ap-south-1.rds.amazonaws.com',
+    DB_USER: 'admin',
+    DB_PWD: 'YOUR-DB-PASSWORD',
+    DB_DATABASE: 'webappdb'
+});
